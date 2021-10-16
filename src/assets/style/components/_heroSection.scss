@@ -1,0 +1,21 @@
+.header-section {
+  background: url("../../images/header-section-background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 884px;
+}
+
+.header-container {
+  height: 90%;
+}
+
+.hero-title {
+  font-size: $font-size-extraLarge;
+  font-weight: bold;
+
+  @media screen and (min-width: $desktop-large-breakpoint) {
+    padding: 0 5rem;
+  }
+}

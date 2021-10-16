@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+// rem
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $primary-text-custom;
+  font-family: "DM Sans", sans-serif;
+  font-size: $m-size;
+  line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
+}
+
+.principal-button {
+  height: 3.5rem;
+  width: 10rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: $alternative-blue;
+  font-size: $font-size-normal;
+  font-weight: bold;
+  margin-right: 2rem;
+
+  &:hover {
+    background-color: white;
+    border-style: solid;
+  }
+}
+
+.secondary-button {
+  color: white;
+  border-radius: 1rem;
+  font-size: $font-size-normal;
+  font-weight: bold;
+
+  &:hover {
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+  }
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
