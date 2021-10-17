@@ -1,0 +1,26 @@
+.working-section {
+  min-height: 80rem;
+  background: $light-blue;
+  .row {
+    min-height: 80rem;
+  }
+}
+
+.working-section-column-image {
+  background: url("../../images/working-section-image.png");
+  background-size: cover;
+  visibility: hidden;
+
+  @media screen and (min-width: 992px) {
+    visibility: visible;
+  }
+}
+
+.working-section-content {
+  padding: 1rem 2rem;
+
+  @media screen and (min-width: 992px) {
+    padding: 0 8rem;
+    max-width: 74rem;
+  }
+}
