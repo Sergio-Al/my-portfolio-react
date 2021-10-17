@@ -2,6 +2,9 @@ import DevLogo from "../assets/images/dev-services.png";
 import DesignLogo from "../assets/images/design-services.png";
 import UpdateLogo from "../assets/images/update-services.png";
 
+import GroupciscProject from "../assets/images/groupcisc-project-screenshot.png";
+import CertifiedNetProject from "../assets/images/certifiednet-project-screenshot.png";
+
 export const experiences = [
   {
     years: "2017-2018",
@@ -40,5 +43,20 @@ export const services = [
     image: UpdateLogo,
     title: "UPDATE",
     body: "Technology is always improving, and I always keep up with the latest technology to improve many areas in software development.",
+  },
+];
+
+export const projects = [
+  {
+    image: GroupciscProject,
+    title: "Groupcisc",
+    description:
+      " Update the main page for the company with a lot of networking with the customers",
+  },
+  {
+    image: CertifiedNetProject,
+    title: "Certified Net",
+    description:
+      "Update the main page for the institution for promotion of their incredible courses.",
   },
 ];
