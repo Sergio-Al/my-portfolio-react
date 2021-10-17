@@ -1,0 +1,18 @@
+.service-section {
+  min-height: 85rem;
+  padding-top: 2.5rem;
+
+  @media screen and (min-width: $desktop-medium-breakpoint) {
+    padding: 2.5rem 2rem;
+  }
+
+  @media screen and (min-width: $desktop-extra-extra-large-breakpoint) {
+    padding: 2.5rem 0;
+  }
+}
+.services-section-main-paragraph {
+  max-width: 78rem;
+  margin: 0 auto;
+  font-size: $font-size-normal;
+  margin-bottom: 4rem;
+}

@@ -8,7 +8,9 @@ html {
 
 body {
   color: $primary-text-custom;
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   font-size: $m-size;
   line-height: 1.6;
 }
@@ -56,9 +58,14 @@ button:disabled {
 }
 
 .container {
-  max-width: 1330px;
+  max-width: 133rem;
 }
 
 .important-text {
   color: $dark-blue;
+}
+
+.main-section-title {
+  font-size: $font-size-extraLarge;
+  font-weight: bold;
 }
