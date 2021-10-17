@@ -2,8 +2,9 @@
 $primary-text-custom: #212529;
 $dark-gray: #212529;
 $grey: #666;
-$alternative-blue: #00509D;
+$alternative-blue: #00509d;
 $dark-blue: #003f88;
+$light-blue: #f8f8ff;
 $light-gray: #888888;
 $off-white: #f7f7f7;
 // Font Size
@@ -16,5 +17,10 @@ $s-size: 1.2rem;
 $m-size: 1.6rem;
 $l-size: 3.2rem;
 $xl-size: 4.8rem;
-$desktop-breakpoint: 45rem;
+// Screen-Spacing
+$desktop-extra-extra-large-breakpoint: 87.5rem;
+$desktop-extra-large-breakpoint: 75rem;
 $desktop-large-breakpoint: 62rem;
+$desktop-medium-breakpoint: 48rem;
+$desktop-small-breakpoint: 36rem;
+$desktop-extra-small-breakpoint: 22.5rem;

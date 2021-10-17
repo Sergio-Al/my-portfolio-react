@@ -1,0 +1,23 @@
+.about-section {
+  min-height: 26rem;
+  background: $light-blue;
+  padding: 1rem;
+
+  @media screen and (min-width: $desktop-medium-breakpoint) {
+    padding: 3rem;
+  }
+}
+
+.about-title {
+  font-size: $font-size-large;
+  font-weight: bold;
+}
+
+.about-presentation {
+  padding: 0 2rem;
+  margin: 1rem 0;
+}
+
+.about-content {
+  padding: 0 2rem;
+}
