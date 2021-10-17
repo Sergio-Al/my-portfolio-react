@@ -1,7 +1,6 @@
 import React from "react";
 
 const AboutTrackItem = ({ experience }) => {
-  console.log(experience);
   return (
     <div className="col-lg-6">
       <div className="about-track">

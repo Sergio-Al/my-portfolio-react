@@ -11,12 +11,12 @@
 
   @media screen and (min-width: $desktop-medium-breakpoint) {
     min-height: 35rem;
+    min-height: 425px;
   }
 
   @media screen and (min-width: $desktop-large-breakpoint) {
     margin: 0;
     max-width: 403px;
-    min-height: 425px;
   }
 }
 

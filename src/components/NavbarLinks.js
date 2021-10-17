@@ -5,7 +5,7 @@ function NavbarLinks() {
     <div>
       <nav className="navbar navbar-dark navbar-expand-md navbar-custom fixed-top navbar-top bg-dark">
         <div className="container">
-          <a className="navbar-brand" href="#Home">
+          <a className="navbar-brand" href="#">
             SA
           </a>
           <button

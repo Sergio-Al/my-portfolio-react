@@ -2,13 +2,10 @@ import React from "react";
 import currentTech from "../assets/images/current-tech-imagespng.png";
 
 const WorkingSection = () => {
-  console.log(document.body.offsetWidth);
   return (
     <section className="working-section" id="working-section-page">
       <div className="row">
-        <div className="col-lg-6 working-section-column-image">
-          <div></div>
-        </div>
+        <div className="col-lg-6 working-section-column-image"></div>
         <div className="col-lg-6 d-flex flex-column justify-content-center">
           <div className="working-section-content">
             <h1 className="main-section-title">Working With Me</h1>
@@ -42,7 +39,7 @@ const WorkingSection = () => {
               <br />
             </p>
             <div>
-              <img class="img-fluid" src={currentTech} />
+              <img className="img-fluid" src={currentTech} />
             </div>
           </div>
         </div>
