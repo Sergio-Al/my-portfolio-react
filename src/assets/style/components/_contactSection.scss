@@ -1,0 +1,26 @@
+.contact-section {
+  min-height: 74.6rem;
+  .row {
+    min-height: 74.6rem;
+    margin: 0;
+  }
+}
+
+.contact-section-column-image {
+  background: url("../../images/contact-image.png");
+  background-size: cover;
+  visibility: hidden;
+
+  @media screen and (min-width: 992px) {
+    visibility: visible;
+  }
+}
+
+.contact-form-column {
+  margin: 2rem auto;
+  width: 100%;
+  h1 {
+    max-width: 58.1rem;
+    margin: 0 auto;
+  }
+}
