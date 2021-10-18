@@ -40,7 +40,7 @@ const WorkingSection = () => {
                 <br />
               </p>
               <div>
-                <img className="img-fluid" src={currentTech} />
+                <img className="img-fluid" src={currentTech} alt="tech" />
               </div>
             </div>
           </div>

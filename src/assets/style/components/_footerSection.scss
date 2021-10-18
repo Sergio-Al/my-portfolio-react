@@ -1,0 +1,23 @@
+.footer-section {
+  min-height: 25.9rem;
+  background: $dark-blue;
+  color: white;
+  a {
+    width: 6rem;
+    margin: 1rem;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      margin: 1.5rem;
+    }
+  }
+}
+.social-link {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section-copyright {
+  color: $off-white;
+  margin-top: 1.5rem;
+}

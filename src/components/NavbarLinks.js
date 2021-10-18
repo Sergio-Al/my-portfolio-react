@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 function NavbarLinks() {
+  const [isShowingNav, setShowingNav] = useState(false);
+
+  const showHandler = () => {
+    setShowingNav(!isShowingNav);
+    const navcol = document.getElementById("navcol-1");
+    if (!isShowingNav) {
+      navcol.classList.remove("collapse");
+    } else {
+      navcol.classList.add("collapse");
+    }
+  };
   return (
     <div>
       <nav className="navbar navbar-dark navbar-expand-md navbar-custom fixed-top navbar-top bg-dark">
@@ -11,7 +22,7 @@ function NavbarLinks() {
           <button
             data-bs-toggle="collapse"
             className="navbar-toggler"
-            data-bs-target="#navcol-1"
+            onClick={showHandler}
           >
             <span className="visually-hidden">Toggle navigation</span>
             <span className="navbar-toggler-icon"></span>

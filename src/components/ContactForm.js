@@ -1,10 +1,14 @@
 import React, { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [isFormDisabled, setFormDisabled] = useState(false);
+
+  const notify = () => toast("Your message has been send");
 
   const sendMessage = (e) => {
     e.preventDefault();
@@ -13,6 +17,7 @@ const ContactForm = () => {
     setEmail("");
     setMessage("");
     setFormDisabled(false);
+    notify();
   };
   return (
     <form
@@ -48,12 +53,10 @@ const ContactForm = () => {
         ></textarea>
       </div>
 
-      <button
-        disabled={isFormDisabled}
-        className="contact-form-button"
-      >
+      <button disabled={isFormDisabled} className="contact-form-button">
         Submit
       </button>
+      <ToastContainer />
     </form>
   );
 };

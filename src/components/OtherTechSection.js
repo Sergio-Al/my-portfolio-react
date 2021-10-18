@@ -19,7 +19,7 @@ const OtherTechSection = () => {
                 each of them.
               </p>
               <div>
-                <img className="img-fluid" src={otherTech} />
+                <img className="img-fluid" src={otherTech} alt="tech" />
               </div>
             </div>
           </div>

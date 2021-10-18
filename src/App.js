@@ -7,6 +7,7 @@ import WorkingSection from "./components/WorkingSection";
 import OtherTechSection from "./components/OtherTechSection";
 import DeliveredProjectsSection from "./components/DeliveredProjectsSection";
 import ContactSection from "./components/ContactSection";
+import FooterSection from "./components/FooterSection";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <OtherTechSection />
       <DeliveredProjectsSection />
       <ContactSection />
+      <FooterSection />
     </div>
   );
 }
