@@ -48,4 +48,11 @@
   min-height: 5.7rem;
   background: $alternative-blue;
   color: white;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    background: white;
+    color: $alternative-blue;
+    border-color: $alternative-blue;
+  }
 }
